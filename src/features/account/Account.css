@@ -1,0 +1,30 @@
+.account {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 400px;
+  text-align: center;
+}
+
+.account h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.account p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.account button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.account button:hover {
+  background-color: #0069d9;
+}
