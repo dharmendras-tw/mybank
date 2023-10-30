@@ -24,6 +24,9 @@ function Navbar() {
         <li>
           <Link to="/city-quiz-states">City Quiz states</Link>
         </li>
+        <li>
+          <Link to="/tasks">TaskApp</Link>
+        </li>
       </ul>
     </nav>
   );

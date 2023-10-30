@@ -8,6 +8,7 @@ import { ReduxAccount } from './features/redux/account/Account';
 import CityQuizStates from './features/demo/CityQuizStates';
 import CityQuiz from './features/demo/CityQuiz';
 import Button from './features/demo/Button';
+import TaskApp from './features/tasks/TaskApp';
 
 
 function Bank () {
@@ -22,6 +23,7 @@ function Bank () {
               <Route path="/redux-account" element={<ReduxAccount/>} />
               <Route path="/city-quiz" element={<CityQuiz/>} />
               <Route path="/city-quiz-states" element={<CityQuizStates/>} />
+              <Route path="/tasks" element={<TaskApp/>} />
             </Routes>
           </div>
         </Router>

@@ -10,7 +10,7 @@
   
   button {
     /* Add any button styling you need */
-    background-color: rgb(239, 15, 74); /* Change button background color to red */
+    background-color: rgb(225, 13, 13); /* Change button background color to red */
     color: white; /* Set text color to white for better visibility */
     padding: 10px 20px; /* Add padding for a better button appearance */
     border: none; /* Remove default button border */
