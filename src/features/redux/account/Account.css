@@ -1,0 +1,30 @@
+.redux_account {
+  border: 1px solid #382f2f;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 400px;
+  text-align: center;
+}
+
+.redux_account h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.redux_account p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.redux_account button {
+  background-color: #ff9d00;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.redux_account button:hover {
+  background-color: #ff9d00;
+}

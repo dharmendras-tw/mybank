@@ -12,6 +12,15 @@ function Navbar() {
         <li>
           <Link to="/account">Account</Link>
         </li>
+        <li>
+          <Link to="/redux-account">Redux Account</Link>
+        </li>
+        <li>
+          <Link to="/city-quiz">City Quiz</Link>
+        </li>
+        <li>
+          <Link to="/city-quiz-states">City Quiz states</Link>
+        </li>
       </ul>
     </nav>
   );

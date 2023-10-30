@@ -9,6 +9,7 @@
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
+  z-index: 1; /* Add this line */
 }
 
 .navbar h1 {

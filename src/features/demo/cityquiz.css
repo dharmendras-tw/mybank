@@ -1,0 +1,36 @@
+/* cityquiz.css */
+
+/* Style to center the CityQuiz component */
+.CityQuizContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Adjust the height according to your layout */
+  }
+  
+  .CityQuizContainer form {
+    margin-top: 20px;
+  }
+  
+  /* Add this class to center the component */
+  .Error {
+    color: red;
+  }
+  
+  /* cityquiz.css */
+
+.center {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  textarea {
+    width: 50%;
+    min-height: 5px;
+  }
+  
+  button {
+    margin-top: 10px;
+  }
+  
