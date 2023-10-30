@@ -7,6 +7,7 @@ import Account from './features/account/Account';
 import { ReduxAccount } from './features/redux/account/Account';
 import CityQuizStates from './features/demo/CityQuizStates';
 import CityQuiz from './features/demo/CityQuiz';
+import Button from './features/demo/Button';
 
 
 function Bank () {
@@ -16,6 +17,7 @@ function Bank () {
             <Navbar />
             <Routes>
               <Route exact path="/" element={<Home/>} />
+              <Route path="/button" element={<Button/>} />
               <Route path="/account" element={<Account/>} />
               <Route path="/redux-account" element={<ReduxAccount/>} />
               <Route path="/city-quiz" element={<CityQuiz/>} />
